@@ -1,8 +1,8 @@
 open OUnit2;;
 
-let test1 test_ctxt = assert_equal "x" (Foo.unity "x");;
+let test1 test_ctxt = assert_equal "x" (Source.unity "x");;
 
-let test2 test_ctxt = assert_equal 100 (Foo.unity 100);;
+let test2 test_ctxt = assert_equal 100 (Source.unity 100);;
 
 (* Name the test cases and group them together *)
 let suite =
